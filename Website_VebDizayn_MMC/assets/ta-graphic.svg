@@ -1,0 +1,19 @@
+<!-- assets/ta-graphic.svg -->
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="strokeGradient" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="#b14629" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#b14629" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#strokeGradient)" fill="none" stroke-width="1">
+    <!-- Left part -->
+    <path d="M10 350 L10 50 L190 50 L190 100 L60 100 L60 350 Z" />
+    <!-- Right part -->
+    <path d="M590 350 L590 50 L410 50 L410 100 L540 100 L540 350 Z" />
+    <!-- Triangle middle -->
+    <path d="M300 50 L190 350 L410 350 Z" />
+    <!-- Bottom triangle tip -->
+    <path d="M300 350 L270 400 L330 400 Z" />
+  </g>
+</svg>
